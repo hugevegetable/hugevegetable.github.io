@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 'Jinฅʕ•̫͡•ʔฅ'
 subtitle: ''
 description: ''
 keywords:
@@ -96,8 +96,19 @@ ignore:
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
+
+#RSS订阅
+# Extensions
+plugins:
+  hexo-generator-feed
+#Feed Atom
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -105,3 +116,34 @@ deploy:
   type: git 
   repo: git@github.com:hugevegetable/hugevegetable.github.io.git
   branch: main
+
+
+
+search:
+  path: search.xml
+  field: post
+  content: true
+
+
+# live2d:
+#   enable: true
+#   scriptFrom: local
+#   pluginRootPath: live2dw/
+#   pluginJsPath: lib/
+#   pluginModelPath: assets/
+#   tagMode: false
+#   debug: false
+#   model:
+#     use: live2d-widget-model-hibiki
+#   display:
+#     position: left
+#     width: 200
+#     height: 450
+#   mobile:
+#     show: true
+#   react:
+#     opacity: 0.9
+
+live2d:
+  enable: true
+
