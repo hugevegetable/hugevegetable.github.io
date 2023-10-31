@@ -115,7 +115,7 @@ theme: butterfly
 deploy:
   type: git 
   repo: git@github.com:hugevegetable/hugevegetable.github.io.git
-  branch: main
+  branch: hexo
 
 
 
