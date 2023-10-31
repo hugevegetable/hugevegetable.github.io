@@ -115,11 +115,17 @@ Option: -g 			Generate before deployment
 
 - `git push origin [branch_name]`	上传	
 
+###### `branch`
+
 - ` git branch` 当前分支    
 
-  `git branch -a` 所有分支
+  ` -a` 所有分支
 
+​		`-vv` 跟踪关系
 
+​		`-- delete <name>` 删除本地分支
+
+​			
 
 
 
