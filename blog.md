@@ -6,6 +6,22 @@
 
 > cousor  css、js have copy，==head inject== no use
 
+> 2023.10.31
+>
+> ​	发生了一件很悲剧的事，大概是三天前，用git切换branch时，切换太心急，直接-f，强制切换，然后就没管，今天发现hexo文件夹少了很多东西，直接变成四天前的东西，非常绝望。
+>
+> ​	按着攻略，回退到大概是三天前的版本，东西都还在，但配置文件都变了。改了一点东西，提交，一直失败，明明文件夹变了，但
+>
+> `git add . ` `git commit ` `git push` 一直显示`already up to date` 搞了好久。 发现切换branch， 文件里的东西都变了。
+>
+> ​	最后，`git checkout -b newBranch` … `git push` 后切换回来`git merge newBranch`。
+
+ 
+
+
+
+
+
 
 
 
