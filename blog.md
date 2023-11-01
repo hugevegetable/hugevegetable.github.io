@@ -14,15 +14,19 @@
 >
 > `git add . ` `git commit ` `git push` 一直显示`already up to date` 搞了好久。 发现切换branch， 文件里的东西都变了。
 >
-> ​	最后，`git checkout -b newBranch` … `git push` 后切换回来`git merge newBranch`。
+> ​	最后，`git checkout -b newBranch` … `git push` 后切换回来`git merge newBranch` 在`delete`。
 
- 
-
-
-
-
+> 11.1
+>
+> 今天上传正常
 
 
+
+
+
+
+
+#### 发布文章
 
 
 
@@ -57,6 +61,12 @@ Usage: `hexo new [layout] <title>`
 Arguments:
 
 ​	layout:	post, page, draft, other
+
+
+
+
+
+
 
 - `hexo p`
 
