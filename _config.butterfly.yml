@@ -8,15 +8,32 @@ nav:
   fixed: false # fixed navigation bar
 
 # Menu 目錄
+# Menu 目錄
 menu:
-  Home: / || fas fa-home
-  Gallery: /gallery/index1.html || fas fa-solid fa-image
-  Link: /link/ || fas fa-link
-  Categories|| fas fa-solid fa-dragon:
-    Biography: /categories/biography/psh.html || iconfont icon-04
-  List|| fas fa-list:
-    Music: /music/ || fas fa-music
-    Movie: /movies/ || fas fa-video
+  首页: / || fas fa-home
+  文章 || fas fa-newspaper :
+    归档: /archives/ || fas fa-archive
+    标签: /tags/ || fas fa-tags
+    分类: /categories/ || fas fa-folder
+  星球 || fas fa-globe :
+    人物: /characters/ || fas fa-user
+    游戏: /games/ || fas fa-gamepad
+  其他 || fas fa-ellipsis-h :
+    友链: /links/ || fas fa-link
+    关于: /about/ || fas fa-info-circle
+
+
+
+
+
+  # Gallery: /gallery/index1.html || fas fa-solid fa-image
+  # Categories|| fas fa-solid fa-dragon:    
+  #   Biography: /categories-biography/ || iconfont icon-04
+  #   Tags: / || fas fa-tags
+  # List|| fas fa-list:   
+  #   Music: /music/ || fas fa-music
+  #   Movie: /movies/ || fas fa-video
+  # Link: /link/ || fas fa-link
   
 
 # Code Blocks (代碼相關)
@@ -408,11 +425,11 @@ addtoany:
 comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk
-  use: # Valine,Disqus
+  use: Twikoo # Valine,Disqus
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
-  lazyload: false
+  lazyload: true
   count: false # Display comment count in post's top_img
   card_post_count: false # Display comment count in Home Page
 
@@ -486,9 +503,9 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId:
+  envId: https://twikoo-jinhuis-projects.vercel.app
   region:
-  visitor: false
+  visitor: true
   option:
 
 # Giscus
@@ -1017,3 +1034,16 @@ CDN:
     # waline_css:
     # waline_js:
 
+
+
+
+
+
+
+# # Twikoo
+# # https://github.com/imaegoo/twikoo
+# twikoo:
+#   envId: https://twikoo-jinhuis-projects.vercel.app
+#   region: 
+#   visitor: true
+#   option:

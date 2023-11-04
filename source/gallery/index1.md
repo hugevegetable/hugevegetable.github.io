@@ -1,4 +1,5 @@
 ---
+
 title: gallery2
 date: 2023-10-22 23:42:58
 ---
@@ -10,10 +11,32 @@ date: 2023-10-22 23:42:58
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+```
 <video width="480" height="320" controls>
   <source src="https://example.com/path_to_your_video/video.mp4" type="video/mp4">
 </video>
+```
 
+
+
+
+
+> 这个真的牛逼
+
+
+```
 <div align=center class="aspect-ratio">
     <iframe src="https://player.bilibili.com/player.html?aid=474023258&&page=1&as_wide=1&high_quality=1&danmaku=0" 
     scrolling="no" 
@@ -25,6 +48,7 @@ date: 2023-10-22 23:42:58
     allowfullscreen="true"> 
     </iframe>
 </div>
+```
 
 
 

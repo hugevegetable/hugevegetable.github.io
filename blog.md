@@ -1,10 +1,18 @@
 # Hexo
 
+#### Todo
 
+> 切换导航栏的js
+
+> Menhera-chan emoji
 
 #### Trouble
 
-> cousor  css、js have copy，==head inject== no use
+> 搜索好像有问题
+
+
+
+#### Log
 
 > 2023.10.31
 >
@@ -18,7 +26,7 @@
 
 > 11.1
 >
-> 今天上传正常
+> ​	今天上传正常
 
 
 
@@ -32,7 +40,7 @@
 
 
 
-#### log
+#### 
 
 - 用vscode打开，本地测试 `hexo s`, 实时预览。
 
@@ -83,6 +91,14 @@ Description: Deploy your website.
 Option: -g 			Generate before deployment
 
 
+
+
+
+### npm
+
+### vscode
+
+`Ctrl + ~  ` 	open the termianl
 
 
 
@@ -137,7 +153,7 @@ Option: -g 			Generate before deployment
 
 ​			
 
-
+- `git remote -v`   查看当前是否配置有远程仓库
 
 - `git chmod `
 - `git switch main`     swich the branch
@@ -199,3 +215,4 @@ deploy:
 - 
 
 `cd` 查看当前路径
+
