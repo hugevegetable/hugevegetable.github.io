@@ -16,11 +16,12 @@ menu:
     标签: /tags/ || fas fa-tags
     分类: /categories/ || fas fa-folder
   星球 || fas fa-globe :
-    人物: /characters/ || fas fa-user
-    游戏: /games/ || fas fa-gamepad
+    人物: /star/characters/ || fas fa-user
+    游戏: /star/games/ || fas fa-gamepad
+    书签: /star/saved-links/ || fas fa-bookmark
   其他 || fas fa-ellipsis-h :
-    友链: /links/ || fas fa-link
-    关于: /about/ || fas fa-info-circle
+    友链: /rest/links/ || fas fa-link
+    关于: /rest/about/ || fas fa-info-circle
 
 
 
@@ -42,7 +43,7 @@ menu:
 highlight_theme: light #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
-highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
+highlight_shrink: true # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
 highlight_height_limit: false # unit: px
 code_word_wrap: false
 
@@ -168,10 +169,10 @@ copy:
 # toc (目錄)
 toc:
   post: true
-  page: false
+  page: true
   number: true
   expand: false
-  style_simple: false # for post
+  style_simple: true # for post
   scroll_percent: true
 
 post_copyright:
@@ -245,6 +246,7 @@ aside:
     archive: true
     tag: true
     category: true
+
   card_author:
     enable: true
     description:
@@ -293,9 +295,9 @@ aside:
 # busuanzi count for PV / UV in site
 # 訪問人數
 busuanzi:
-  site_uv: true
-  site_pv: true
-  page_pv: true
+  site_uv: false
+  site_pv: false
+  page_pv: false
 
 # Time difference between publish date and now (網頁運行時間)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
@@ -1047,3 +1049,8 @@ CDN:
 #   region: 
 #   visitor: true
 #   option:
+
+
+# 友链样式，butterfly为默认样式，volantis为站点卡片样式.flexcard为弹性卡片样式
+flink_style: volantis # butterfly | volantis 
+

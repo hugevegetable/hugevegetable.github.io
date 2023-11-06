@@ -1,3 +1,16 @@
+---
+title: link
+date: 2023-10-22 22:23:03
+type: link
+random: true
+aside: false
+---
+
+```
+
+
+{% flink %}
+
 - class_name: 友情链接
   class_desc: 漂亮充实的网站
   link_list:
@@ -6,6 +19,7 @@
       avatar: https://www.fomal.cc/assets/avatar.webp
       descr: Future is now 🍭🍭🍭
       siteshot: https://source.fomal.cc/siteshot/www.fomal.cc.webp
+
     - name: 萌傀儡`Blog
       link: https://blhorizon.github.io/
       avatar: https://tc.mwm.moe/i/6/2023/10/25/65389a5fd0a2b.webp
@@ -30,3 +44,7 @@
       avatar: https://cdn.jsdelivr.ren/gh/zykjofficial/zykjofficial.github.io@master/img/avatar.png
       descr: 做一个普普通通的人.
       screenshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/noanimate/https://zykj.js.org
+
+{% endflink %}
+
+```
