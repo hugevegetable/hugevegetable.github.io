@@ -12,6 +12,9 @@ block content
         include includes/page/flink.pug
       when 'categories'
         include includes/page/categories.pug
+      //- 自己加的书签页和友链一样
+      when 'saved-links'
+        include includes/page/saved-links.pug
       default
         include includes/page/default-page.pug
 

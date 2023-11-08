@@ -4,7 +4,7 @@
     - name: Fomalhaut🥝
       link: https://www.fomal.cc/
       avatar: https://www.fomal.cc/assets/avatar.webp
-      descr: Future is now 🍭🍭🍭
+      descr: Future is now 🍭🍭🍭     注：第一个启蒙网站
       siteshot: https://source.fomal.cc/siteshot/www.fomal.cc.webp
     - name: 萌傀儡`Blog
       link: https://blhorizon.github.io/
@@ -30,3 +30,12 @@
       avatar: https://cdn.jsdelivr.ren/gh/zykjofficial/zykjofficial.github.io@master/img/avatar.png
       descr: 做一个普普通通的人.
       screenshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/noanimate/https://zykj.js.org
+    - name: Tianli
+      desc: 自知之明是最可贵的知识！
+      icon: https://q2.qlogo.cn/headimg_dl?dst_uin=507249007&spec=640
+      link: https://tianli-blog.club/
+    - name: 樱花小镇
+      link: https://blog.sakura.vin
+      avatar: https://www.sakura.vin/favicon.ico
+      descr: 小园新种红樱树，闲绕花枝便当游。
+      siteshot: https://bu.dusays.com/2023/09/15/6503348d9a06e.png

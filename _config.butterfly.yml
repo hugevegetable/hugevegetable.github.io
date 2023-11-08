@@ -16,9 +16,10 @@ menu:
     标签: /tags/ || fas fa-tags
     分类: /categories/ || fas fa-folder
   星球 || fas fa-globe :
-    人物: /star/characters/ || fas fa-user
+    # 人物: /star/characters/ || fas fa-user
     游戏: /star/games/ || fas fa-gamepad
     书签: /star/saved-links/ || fas fa-bookmark
+    
   其他 || fas fa-ellipsis-h :
     友链: /rest/links/ || fas fa-link
     关于: /rest/about/ || fas fa-info-circle
@@ -44,8 +45,8 @@ highlight_theme: light #  darker / pale night / light / ocean / mac / mac light 
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
 highlight_shrink: true # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
-highlight_height_limit: false # unit: px
-code_word_wrap: false
+highlight_height_limit:  # unit: px
+code_word_wrap: true
 
 # Social Settings (社交圖標設置)
 # formal:
@@ -795,9 +796,9 @@ preloader:
   # source
   # 1. fullpage-loading
   # 2. pace (progress bar)
-  source: 1
+  source: 2 
   # pace theme (see https://codebyzach.github.io/pace/)
-  pace_css_url:
+  pace_css_url: https://fastly.jsdelivr.net/gh/xlenco/JS-X@main/pace.js/pace.css
 
 # wordcount (字數統計)
 # see https://butterfly.js.org/posts/ceeb73f/#字數統計

@@ -16,7 +16,7 @@
 
 > 搜索好像有问题
 
-
+![屏幕截图 2023-11-04 122053](https://raw.githubusercontent.com/hugevegetable/first-img/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-11-04%20122053.png)
 
 #### Log
 
@@ -52,7 +52,11 @@
 
 
 
+###### 11.7
 
+> ​	时隔两天终于成功了，看似这么长时间，其实把`site.data.saved-links`改成 `site.data['saved-links']`就成功了，成功原因还是知道一点pug调试方法，之前的调试方法一直是错的，所以一直原地打转，哎。
+>
+> 现在看看也简单，log一下文件，`NAN`,在log 下site.data，就会发现异常，多了2个`‘’` ，改一下就行，之前的思路就错的。
 
 
 

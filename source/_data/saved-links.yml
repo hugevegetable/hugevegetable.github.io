@@ -1,21 +1,3 @@
----
-title: 书签
-date: 2023-11-04 15:48:38
-type: saved-links
-
-aside: false
-comments: false
----
-
-```
-{% flink %}
-
-
-{% endflink %}
-```
-
-
-```
 - class_name: 官方网站参考
   class_desc: 
   link_list:
@@ -31,4 +13,19 @@ comments: false
       link: https://butterfly.zhheo.com/
       avatar: 
       descr: 
-```
+
+- class_name: 图床
+  class_desc: 免费的
+  link_list:
+    - name: ImgURL免费图床
+      link: https://www.imgurl.org/vip/manage/upload
+     
+    - name:
+      link: 
+      avatar: 
+      descr:
+      siteshot: 
+    - name: 
+      link:
+      avatar: 
+      descr: 
