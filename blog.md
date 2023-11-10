@@ -60,7 +60,9 @@
 
 
 
+###### 11.8
 
+> ​	发现我的butterfly版本低了只有4.1，最新4.9了
 
 
 
@@ -122,6 +124,18 @@ Option: -g 			Generate before deployment
 
 ### npm
 
+##### 插件更新流程（可能，没试过）
+
+> 1、修改`package.json`,将版本号更改
+>
+> 2、开始更新
+>
+> `npm install –save`
+
+
+
+
+
 ### vscode
 
 `Ctrl + ~  ` 	open the termianl
@@ -159,13 +173,15 @@ Option: -g 			Generate before deployment
 
 - `git status`
 
-
-
 - `git commit -m "annotation"` 	提交
 
-
-
 - `git push origin [branch_name]`	上传	
+
+
+
+
+
+
 
 ###### `branch`
 
@@ -187,6 +203,12 @@ Option: -g 			Generate before deployment
 ​		[-c]  	create a branch
 
 - `git reset --hard HEAD^ #回退到上一个版本`
+
+###### 合并
+
+
+
+
 
 
 

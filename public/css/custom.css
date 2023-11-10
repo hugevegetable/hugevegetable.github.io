@@ -155,3 +155,12 @@ div#archive {
         width: calc(100% / 2 - 16px) !important;
     }
 }
+
+
+
+/* 加载条头像 */
+.loading-img {
+    /* background: url(https://npm.elemecdn.com/anzhiyu-blog@2.1.1/img/avatar.webp) no-repeat center center; */
+    background: url(/assets/R.jfif) no-repeat center center;
+    background-size: cover;
+}
