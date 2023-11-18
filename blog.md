@@ -6,7 +6,9 @@
 
 > Menhera-chan emoji
 
-> 加载条 
+> 首页文章 到上面才显示详细
+
+> 夜晚
 
 > 壁纸 原神、进击的巨人、
 
@@ -16,7 +18,7 @@
 
 > 搜索好像有问题
 
-![屏幕截图 2023-11-04 122053](https://raw.githubusercontent.com/hugevegetable/first-img/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-11-04%20122053.png)
+
 
 #### Log
 
@@ -64,7 +66,9 @@
 
 > ​	发现我的butterfly版本低了只有4.1，最新4.9了
 
+11.10
 
+> ​	版本号4.10，之前看错了。二次元随机图`https://t.mwm.moe/pc`
 
 
 
