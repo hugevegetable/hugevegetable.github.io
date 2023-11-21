@@ -71,20 +71,20 @@ const executeLoad = (config, target) => {
 };
 
 let config = {
-    // smallSrc: 'https://t.mwm.moe/pc', // 小图链接 尽可能配置小于100k的图片
-    // largeSrc: 'https://t.mwm.moe/pc', // 大图链接 最终显示的图片
-    // mobileSmallSrc: 'https://t.mwm.moe/mp', // 手机端小图链接 尽可能配置小于100k的图片
-    // mobileLargeSrc: 'https://t.mwm.moe/mp', // 手机端大图链接 最终显示的图片
+    smallSrc: 'https://t.mwm.moe/pc', // 小图链接 尽可能配置小于100k的图片
+    largeSrc: 'https://t.mwm.moe/pc', // 大图链接 最终显示的图片
+    mobileSmallSrc: 'https://t.mwm.moe/mp', // 手机端小图链接 尽可能配置小于100k的图片
+    mobileLargeSrc: 'https://t.mwm.moe/mp', // 手机端大图链接 最终显示的图片
 
     // smallSrc: '/assets/The-Witch-s-Journey.png', // 小图链接 尽可能配置小于100k的图片
     // largeSrc: '/assets/The-Witch-s-Journey.png', // 大图链接 最终显示的图片
     // mobileSmallSrc: '/assets/The-Witch-s-Journey.png', // 手机端小图链接 尽可能配置小于100k的图片
     // mobileLargeSrc: '/assets/The-Witch-s-Journey.png', // 手机端大图链接 最终显示的图片
 
-    smallSrc: window.backgroundConfig.imgloadedImg.match(/url\((.*?)\)/)[1],
-    largeSrc: window.backgroundConfig.imgloadedImg.match(/url\((.*?)\)/)[1],
-    mobileSmallSrc: window.backgroundConfig.imgloadedImg.match(/url\((.*?)\)/)[1],
-    mobileLargeSrc: window.backgroundConfig.imgloadedImg.match(/url\((.*?)\)/)[1],
+    // smallSrc: window.backgroundConfig.imgloadedImg.match(/url\((.*?)\)/)[1],
+    // largeSrc: window.backgroundConfig.imgloadedImg.match(/url\((.*?)\)/)[1],
+    // mobileSmallSrc: window.backgroundConfig.imgloadedImg.match(/url\((.*?)\)/)[1],
+    // mobileLargeSrc: window.backgroundConfig.imgloadedImg.match(/url\((.*?)\)/)[1],
     enableRoutes: ['/'],
 };
 
