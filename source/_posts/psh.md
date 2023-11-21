@@ -2,7 +2,10 @@
 layout: gallery
 title: psh
 date: 2023-10-27 15:00:44
+cover: https://s3.bmp.ovh/imgs/2023/11/20/78028f0f399cde57.webp
 
+swiper_index: 10
+top_img: transparent
 ---
 
 

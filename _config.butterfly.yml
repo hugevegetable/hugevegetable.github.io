@@ -76,11 +76,11 @@ index_img: rgb(255, 255, 255)
 # /assets/The-Witch-s-Journey.png
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: /assets/The-Witch-s-Journey.png
+default_top_img: transparent
   #'linear-gradient(20deg, #0062be, #925696, #cc426e, #fb0347)'
-  
+# /assets/The-Witch-s-Journey.png  
 
-top_img: /assets/The-Witch-s-Journey.png
+top_img: transparent
 # /assets/The-Witch-s-Journey.png
 
 # The banner image of archive page
@@ -235,7 +235,7 @@ footer:
   owner:
     enable: true
     since: 2020
-  custom_text: #I wish you to become your own sun, no need to rely on who's light.<p><a target="_blank" href="https://hexo.io/"><img src="https://img.shields.io/badge/Frame-Hexo-blue?style=flat&logo=hexo" title="博客框架为Hexo"></a>&nbsp;<a target="_blank" href="https://butterfly.js.org/"><img src="https://img.shields.io/badge/Theme-Butterfly-6513df?style=flat&logo=bitdefender" title="主题采用butterfly"></a>&nbsp;<a target="_blank" href="https://www.jsdelivr.com/"><img src="https://img.shields.io/badge/CDN-jsDelivr-orange?style=flat&logo=jsDelivr" title="本站使用JsDelivr为静态资源提供CDN加速"></a> &nbsp;<a target="_blank" href="https://vercel.com/ "><img src="https://img.shields.io/badge/Hosted-Vervel-brightgreen?style=flat&logo=Vercel" title="本站采用双线部署，默认线路托管于Vercel"></a>&nbsp;<a target="_blank" href="https://vercel.com/ "><img src="https://img.shields.io/badge/Hosted-Coding-0cedbe?style=flat&logo=Codio" title="本站采用双线部署，联通线路托管于Coding"></a>&nbsp;<a target="_blank" href="https://github.com/"><img src="https://img.shields.io/badge/Source-Github-d021d6?style=flat&logo=GitHub" title="本站项目由Gtihub托管"></a>&nbsp;<a target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://img.shields.io/badge/Copyright-BY--NC--SA%204.0-d42328?style=flat&logo=Claris" title="本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"></a></p>
+  custom_text: I wish you to become your own sun, no need to rely on who's light. 
   copyright: true # Copyright of theme and framework
 
 # aside (側邊欄)
@@ -670,10 +670,15 @@ text_align_justify: false
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: url(https://source.fomal.cc/img/dm1.webp)
+background: 
+  - rgb(255, 255, 255)
+  # - url(https://source.fomal.cc/img/dm1.webp)
+
+
 
 # Footer Background
-footer_bg: true
+footer_bg: transparent
+
 
 # Add mask to header or footer (为 header 或 footer 添加黑色半透遮罩)
 mask:
@@ -954,7 +959,18 @@ inject:
     - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_4304825_xzfwcwpxhc.css" media="defer" onload="this.media='all'">
  # 首页渐进加载图片
     - <link rel="stylesheet" href="/css/imgloaded.css">
+    
   bottom:
+
+    #     #首页渐进加载图片
+    # - <script async data-pjax src="/js/imgloaded.js"></script>  
+    #   # 随机背景
+    # - <script async data-pjax src="/js/random-background.js"></script>  
+
+          # 随机背景
+    - <script defer src="/js/random-background.js"></script>  
+        #首页渐进加载图片
+    - <script defer src="/js/imgloaded.js"></script>  
     # cursor
     - <script defer src="/js/cursor.js"></script>
     # iconfont
@@ -963,8 +979,12 @@ inject:
     - <script defer type="text/javascript" src="https://cdn1.tianli0.top/npm/sweetalert2@8.19.0/dist/sweetalert2.all.js"></script> # 节日弹窗依赖
     - <script defer src="/js/lunar.js"></script> # 农历计算
     - <script defer src="/js/day.js"></script> # 节日弹窗
-    #首页渐进加载图片
-    - <script async data-pjax src="/js/imgloaded.js"></script>  
+
+
+
+
+  
+
 # CDN
 # Don't modify the following settings unless you know how they work
 # 非必要請不要修改
@@ -1069,3 +1089,22 @@ flink_style: volantis # butterfly | volantis
 
 # live2d:
 #   enable: false
+
+
+# 首页轮播图
+# hexo-butterfly-swiper
+# see https://akilar.top/posts/8e1264d1/
+swiper:
+  enable: true # 开关
+  priority: 5 #过滤器优先权
+  enable_page: / # 应用页面
+  timemode: date #date/updated
+  layout: # 挂载容器类型
+    type: id
+    name: recent-posts
+    index: 0
+  default_descr: 再怎么看我也不知道怎么描述它的啦！
+  swiper_css: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.css #swiper css依赖
+  swiper_js: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.js #swiper js依赖
+  custom_css: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiperstyle.css # 适配主题样式补丁
+  custom_js: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper_init.js # swiper初始化方法

@@ -17,6 +17,7 @@
   "dependencies": {
     "hexo": "^6.3.0",
     "hexo-asset-image": "^1.0.0",
+    "hexo-butterfly-swiper": "^1.0.12",
     "hexo-deployer-git": "^4.0.0",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
@@ -31,8 +32,7 @@
     "hexo-theme-butterfly": "^4.10.0",
     "hexo-theme-landscape": "^1.0.0",
     "hexo-theme-next": "^8.18.1",
-    "hexo-wordcount": "^6.0.1",
-    "live2d-widget": "^3.1.4"
+    "hexo-wordcount": "^6.0.1"
   },
   "devDependencies": {
     "rimraf": "^5.0.5"

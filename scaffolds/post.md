@@ -8,4 +8,7 @@ categories:
 cover: 
 description: 
 
+
+top_img: transparent
+
 ---
