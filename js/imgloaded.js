@@ -81,14 +81,9 @@ let config = {
     // mobileSmallSrc: '/assets/The-Witch-s-Journey.png', // 手机端小图链接 尽可能配置小于100k的图片
     // mobileLargeSrc: '/assets/The-Witch-s-Journey.png', // 手机端大图链接 最终显示的图片
 
-    // smallSrc: window.backgroundConfig.imgloadedImg.match(/url\((.*?)\)/)[1],
-    // largeSrc: window.backgroundConfig.imgloadedImg.match(/url\((.*?)\)/)[1],
-    // mobileSmallSrc: window.backgroundConfig.imgloadedImg.match(/url\((.*?)\)/)[1],
-    // mobileLargeSrc: window.backgroundConfig.imgloadedImg.match(/url\((.*?)\)/)[1],
     enableRoutes: ['/'],
 };
 
-console.log("imgloaded.js----");
 
 
 
@@ -116,23 +111,4 @@ document.addEventListener("pjax:complete", function () {
 
 
 
-//重新设背景，重新改config
-// document.addEventListener('randomBackgroundLoaded', function () {
-//     // 在 random-background.js 执行完毕后执行的代码
-//     // 示例字符串
-//     const imgloadedImgString = window.backgroundConfig.imgloadedImg;
-//     // 使用正则表达式匹配
-//     const matchResult = imgloadedImgString.match(/url\((.*?)\)/);
-//     // 获取匹配到的结果
-//     const imagePath = matchResult && matchResult[1];
 
-//     console.log("imgloaded.js----" + imagePath); // 输出 "/img/pc.webp"
-
-//     config = {
-//         smallSrc: imagePath,
-//         largeSrc: imagePath,
-//         mobileSmallSrc: imagePath,
-//         mobileLargeSrc: imagePath,
-//         enableRoutes: ['/'],
-//     };
-// });

@@ -45,7 +45,7 @@
 
 
 document.getElementById("web_bg").style.backgroundImage = "url(https://t.mwm.moe/pc)";
-console.log(document.getElementById("web_bg").style.backgroundImage);
+
 
 
 

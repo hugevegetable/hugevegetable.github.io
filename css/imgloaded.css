@@ -24,6 +24,12 @@
 
 }
 
+[data-theme="dark"] .pl-img {
+    filter: blur(0) brightness(0.6);
+}
+
+
+
 @keyframes blur-to-clear {
     0% {
         filter: blur(50px);
