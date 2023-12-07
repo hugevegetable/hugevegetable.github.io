@@ -40,6 +40,16 @@ top_img: transparent
 
 ​	开始记得，中间忘了，后面忘了，就记得啊啊啊啊。
 
+​	
+
+###### 	寒假
+
+​	寒冷的冬天，
+
+​	拿下java聊天
+
+​	大佬一带三，烧单片机，直接烧出一个俄罗斯方块，右上角还有鲜艳的红旗。
+
 
 
 
@@ -52,7 +62,7 @@ top_img: transparent
 
 这是我的课表
 
-<img src="https://raw.githubusercontent.com/hugevegetable/first-img/main/1.png" alt="1" style="zoom: 25%;" />
+<img src="https://raw.githubusercontent.com/hugevegetable/first-img/main/1.png" alt="1" style="display: block; width: 20%; " />
 
 ​	
 
@@ -60,13 +70,13 @@ top_img: transparent
 
 
 
-<img src="https://raw.githubusercontent.com/hugevegetable/first-img/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20231027154903.png" alt="微信图片_20231027154903" style="zoom:33%;" />
+<img src="https://raw.githubusercontent.com/hugevegetable/first-img/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20231027154903.png" alt="微信图片_20231027154903" style="display: block; width: 20%; " />
 
 ​		真正的的大佬是不用上课，也门门4.0的，是这样的
 
-​		上lh的数据结构绝对是一段温州大学传奇历史，emmm，但我不敢写`\doge\doge`。
+​		上lh的数据结构绝对是一段温州大学传奇历史，emmm，但我不敢写`\doge\doge`。只能说全寝室100
 
-​	
+​		做系统基础实验，大哥的小车跟人甩都甩不掉，遇见障碍物，直接90度漂移。
 
 ​		。。。。。。
 
@@ -78,7 +88,25 @@ top_img: transparent
 
 ​	10.26pdd现金大转盘风浪来袭，在我只敢砍pdd10刀时，传出大帅手起刀落，怒砍pdd 100刀的身影，大喊还有谁，拼多多就这。但道高一尺，魔高一丈，经过一系列大战后，还是惜败，没能逃出pdd魔爪，就差00.01.以身作则地交我防诈骗。流传出下面这张经典图
 
-<img src="https://raw.githubusercontent.com/hugevegetable/first-img/main/68ac4fe1566e0acabdd54c4767db3d8.jpg" alt="68ac4fe1566e0acabdd54c4767db3d8" style="zoom:10%;" />
+<img src="https://raw.githubusercontent.com/hugevegetable/first-img/main/68ac4fe1566e0acabdd54c4767db3d8.jpg" alt="68ac4fe1566e0acabdd54c4767db3d8" style="display: block; width: 20%; " />
+
+
+
+
+
+###### 	11.15	
+
+​	难以想象，这天室外体测，大帅诚惶诚恐但轻松拿下体测三项第一，那个又高又猛但不如真大帅帅的大帅轻轻松松测完不留名，还好引体向上收了收神力，吓人。不仅脑子好，体力也一等一，拿下100。要不是我感冒，我肯定跟上那丑大帅的步伐。
+
+​	
+
+
+
+
+
+
+
+
 
 
 
@@ -94,6 +122,6 @@ top_img: transparent
 
 
 
-写困了，跑步去。
+
 
 ## 
