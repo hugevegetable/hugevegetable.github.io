@@ -44,9 +44,9 @@
 // }
 
 
-document.getElementById("web_bg").style.backgroundImage = "url(https://t.mwm.moe/pc)";
+// document.getElementById("web_bg").style.backgroundImage = "url(https://t.mwm.moe/pc)";
 
-
+document.getElementById("web_bg").style.backgroundImage = "url(https://api.qjqq.cn/api/Img?sort=acg)";
 
 
 // //随机banner数组,图片可以换成图床链接，注意最后一条后面不要有逗号

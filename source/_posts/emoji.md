@@ -1,5 +1,5 @@
 ---
-title: emoji
+title: Emoji
 date: 2023-11-04 16:25:09
 tags: 
 categories:
@@ -9,6 +9,7 @@ password:
 toc_style_simple: ture
 highlight_shrink: 
 cover: https://s3.bmp.ovh/imgs/2023/11/20/fcede0091df3ebbd.webp
+
 description:
 swiper_index: 8
 top_img: transparent
