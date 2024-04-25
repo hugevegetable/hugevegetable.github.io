@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-04-03T01:51:59.884Z</updated>
+  <updated>2024-04-06T15:53:26.566Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,22 +17,42 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>美剧</title>
+    <link href="http://example.com/2024/04/06/%E7%BE%8E%E5%89%A7/"/>
+    <id>http://example.com/2024/04/06/%E7%BE%8E%E5%89%A7/</id>
+    <published>2024-04-06T15:50:41.000Z</published>
+    <updated>2024-04-06T15:53:26.566Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="美剧"><a href="#美剧" class="headerlink" title="美剧"></a>美剧</h2><p>黑袍纠察队</p><p>大爱正义女——star light</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;美剧&quot;&gt;&lt;a href=&quot;#美剧&quot; class=&quot;headerlink&quot; title=&quot;美剧&quot;&gt;&lt;/a&gt;美剧&lt;/h2&gt;&lt;p&gt;黑袍纠察队&lt;/p&gt;
+&lt;p&gt;大爱正义女——star light&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>碌碌无为的一天</title>
     <link href="http://example.com/2024/04/02/%E7%A2%8C%E7%A2%8C%E6%97%A0%E4%B8%BA%E7%9A%84%E4%B8%80%E5%A4%A9/"/>
     <id>http://example.com/2024/04/02/%E7%A2%8C%E7%A2%8C%E6%97%A0%E4%B8%BA%E7%9A%84%E4%B8%80%E5%A4%A9/</id>
     <published>2024-04-02T12:35:36.000Z</published>
-    <updated>2024-04-03T01:51:59.884Z</updated>
+    <updated>2024-04-03T02:39:35.268Z</updated>
     
-    <content type="html"><![CDATA[<p>​    一天啥也没做。</p><p>​    上午待寝室，吃个午饭，睡个觉。</p><p>​    下午晚上上安卓课，啥事没有，也不知道干什么。</p><p>​    晚上10点回寝室，又打游戏，打到被窝一直打。</p><p>​    Keep learning！Be man of purpose.</p>]]></content>
+    <content type="html"><![CDATA[<h5 id="一天的生活"><a href="#一天的生活" class="headerlink" title="一天的生活"></a>一天的生活</h5><p>​    一天啥也没做。</p><p>​    上午待寝室，吃个午饭，睡个觉。</p><p>​    下午晚上上安卓课，啥事没有，也不知道干什么。</p><p>​    晚上10点回寝室，又打游戏，打到被窝一直打。</p><h5 id="随便想的激励的话"><a href="#随便想的激励的话" class="headerlink" title="随便想的激励的话"></a>随便想的激励的话</h5><p>​    Keep learning！Be man of purpose.</p><h5 id="针对不知道干什么"><a href="#针对不知道干什么" class="headerlink" title="针对不知道干什么"></a>针对不知道干什么</h5><p>​    一点都没有想干的，尤其是上安卓课时，没有我的任务，干对着电脑发呆，后来打开博客，忘记怎么配置的。1、尝试接触新东西。2、</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;​    一天啥也没做。&lt;/p&gt;
+    <summary type="html">&lt;h5 id=&quot;一天的生活&quot;&gt;&lt;a href=&quot;#一天的生活&quot; class=&quot;headerlink&quot; title=&quot;一天的生活&quot;&gt;&lt;/a&gt;一天的生活&lt;/h5&gt;&lt;p&gt;​    一天啥也没做。&lt;/p&gt;
 &lt;p&gt;​    上午待寝室，吃个午饭，睡个觉。&lt;/p&gt;
-&lt;p&gt;​    下午晚上上安卓课，啥事没有，也不知道干什么。&lt;/p&gt;
-&lt;p&gt;​    晚上10点回寝室，又打游戏，打到被窝一直打。&lt;/p&gt;
-&lt;p&gt;​    Keep learning！</summary>
+&lt;p&gt;​    下午晚上上</summary>
       
     
     
