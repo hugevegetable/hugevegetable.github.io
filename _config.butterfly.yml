@@ -17,9 +17,10 @@ menu:
     分类: /categories/ || fas fa-folder
   星球 || fas fa-globe :
     # 人物: /star/characters/ || fas fa-user
-    游戏: /star/games/ || fas fa-gamepad
-    书签: /star/saved-links/ || fas fa-bookmark
     
+    游戏: /star/games/ || fas fa-gamepad
+    照片: /star/photo/ 
+    书签: /star/saved-links/ || fas fa-bookmark    
   其他 || fas fa-ellipsis-h :
     友链: /rest/links/ || fas fa-link
     日志: /rest/log/ || fas fa-history
@@ -45,8 +46,8 @@ menu:
 highlight_theme: light #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
-highlight_shrink: true # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
-highlight_height_limit:  # unit: px
+highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
+highlight_height_limit: 200 # unit: px
 code_word_wrap: true
 
 # Social Settings (社交圖標設置)
@@ -959,14 +960,14 @@ inject:
     - <link rel="stylesheet" href="/css/custom.css">
     # iconfont
     - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_4304825_xzfwcwpxhc.css" media="defer" onload="this.media='all'">
- # 首页渐进加载图片
+  # 首页渐进加载图片
     - <link rel="stylesheet" href="/css/imgloaded.css">
+
     
   bottom:
 
-     # 随机背景（改了个背景）
-    - <script defer src="/js/random-background.js"></script>  
-      #首页渐进加载图片
+
+  #首页渐进加载图片
     - <script defer src="/js/imgloaded.js"></script>  
     # cursor
     - <script defer src="/js/cursor.js"></script>
@@ -976,9 +977,14 @@ inject:
     - <script defer type="text/javascript" src="https://cdn1.tianli0.top/npm/sweetalert2@8.19.0/dist/sweetalert2.all.js"></script> # 节日弹窗依赖
     - <script defer src="/js/lunar.js"></script> # 农历计算
     - <script defer src="/js/day.js"></script> # 节日弹窗
-# 夜晚星光
+    # 夜晚星光
     - <canvas id="universe"></canvas>
     - <script defer src="/js/universe.js"></script>
+    # google anylse
+    - <script async src="https://www.googletagmanager.com/gtag/js?id=G-WNRXFL2L0N"></script>
+    - <script defer src="/js/google-analytics.js"></script>
+
+
 
 
 
